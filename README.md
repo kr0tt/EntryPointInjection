@@ -10,7 +10,7 @@ To convert your Loader.dll to sRDI, use the provided python script:
 ````
 python ConvertToShellcode.py -of <raw/string> Loader.dll
 ````
-This example stores the shellcode (unecrypted) in the .rsrc section.
+This example stores the shellcode (unencrypted) in the .rsrc section.
 
 To inject to a remote process, simply specify the target process' name:
 ````
